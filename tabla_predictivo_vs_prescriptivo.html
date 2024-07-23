@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparativa de Tipos de Mantenimiento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a2e;
+            color: #e0e0e0;
+            padding: 20px;
+        }
+        table {
+            border-collapse: separate;
+            border-spacing: 0;
+            width: 100%;
+            margin-bottom: 1em;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border-bottom: 1px solid #16213e;
+        }
+        th {
+            background-color: #0f3460;
+            color: #00ffff;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        td {
+            background-color: #16213e;
+        }
+        tr:last-child td {
+            border-bottom: none;
+        }
+        tr:nth-child(even) td {
+            background-color: #1a1a35;
+        }
+        tr:hover td {
+            background-color: #233667;
+        }
+        .table-container {
+            position: relative;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .table-container::before {
+            content: "";
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            background: linear-gradient(45deg, #00ffff, #0066cc);
+            z-index: -1;
+            filter: blur(20px);
+            opacity: 0.7;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Característica</th>
+                    <th>Correctivo</th>
+                    <th>Preventivo</th>
+                    <th>Predictivo</th>
+                    <th>Prescriptivo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Enfoque</td>
+                    <td>Reparar después del fallo</td>
+                    <td>Realizar mantenimiento programado</td>
+                    <td>Predecir fallos basado en datos</td>
+                    <td>Recomendar acciones específicas</td>
+                </tr>
+                <tr>
+                    <td>Timing</td>
+                    <td>Reactivo</td>
+                    <td>Proactivo, basado en calendario</td>
+                    <td>Proactivo, basado en condición</td>
+                    <td>Proactivo, basado en análisis avanzado</td>
+                </tr>
+                <tr>
+                    <td>Tecnología utilizada</td>
+                    <td>Herramientas básicas</td>
+                    <td>Registros y programación</td>
+                    <td>Sensores, IoT, análisis de datos</td>
+                    <td>IA, machine learning, big data</td>
+                </tr>
+                <tr>
+                    <td>Costo inicial</td>
+                    <td>Bajo</td>
+                    <td>Moderado</td>
+                    <td>Alto</td>
+                    <td>Muy alto</td>
+                </tr>
+                <tr>
+                    <td>Costo a largo plazo</td>
+                    <td>Alto</td>
+                    <td>Moderado</td>
+                    <td>Bajo</td>
+                    <td>Potencialmente el más bajo</td>
+                </tr>
+                <tr>
+                    <td>Tiempo de inactividad</td>
+                    <td>Alto</td>
+                    <td>Moderado</td>
+                    <td>Bajo</td>
+                    <td>Mínimo</td>
+                </tr>
+                <tr>
+                    <td>Vida útil del equipo</td>
+                    <td>Reducida</td>
+                    <td>Normal</td>
+                    <td>Extendida</td>
+                    <td>Optimizada</td>
+                </tr>
+                <tr>
+                    <td>Complejidad</td>
+                    <td>Baja</td>
+                    <td>Moderada</td>
+                    <td>Alta</td>
+                    <td>Muy alta</td>
+                </tr>
+                <tr>
+                    <td>Eficiencia operativa</td>
+                    <td>Baja</td>
+                    <td>Moderada</td>
+                    <td>Alta</td>
+                    <td>Muy alta</td>
+                </tr>
+                <tr>
+                    <td>Uso de recursos</td>
+                    <td>Ineficiente</td>
+                    <td>Moderadamente eficiente</td>
+                    <td>Eficiente</td>
+                    <td>Altamente optimizado</td>
+                </tr>
+                <tr>
+                    <td>Predicción de fallos</td>
+                    <td>No</td>
+                    <td>No</td>
+                    <td>Sí</td>
+                    <td>Sí</td>
+                </tr>
+                <tr>
+                    <td>Recomendación de acciones</td>
+                    <td>No</td>
+                    <td>No</td>
+                    <td>Limitada</td>
+                    <td>Sí, detallada</td>
+                </tr>
+                <tr>
+                    <td>Integración con objetivos de negocio</td>
+                    <td>No</td>
+                    <td>Limitada</td>
+                    <td>Moderada</td>
+                    <td>Alta</td>
+                </tr>
+                <tr>
+                    <td>Flexibilidad</td>
+                    <td>Baja</td>
+                    <td>Moderada</td>
+                    <td>Alta</td>
+                    <td>Muy alta</td>
+                </tr>
+                <tr>
+                    <td>Requerimiento de habilidades</td>
+                    <td>Básicas</td>
+                    <td>Intermedias</td>
+                    <td>Avanzadas</td>
+                    <td>Muy avanzadas</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
